@@ -5,7 +5,7 @@
 
 function takeANumber (line) {
   line.push(line.length+1)
-  return `Welcome. you are number ${line.length} in line.`
+  return `Welcome. You are number ${line.length} in line.`
 }
 
 function nowServing (line) {
