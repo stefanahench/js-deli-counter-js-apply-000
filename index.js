@@ -3,6 +3,11 @@
 //   return `Welcome, ${name}. You are number ${line.length} in line.`
 // }
 
+function takeANumber (line) {
+  line.push(line.length+1)
+  return `Welcome. you are number ${line.length} in line.`
+}
+
 function nowServing (line) {
   if (line.length>0) {
     return (`Currently serving ${line.shift()}.`)
