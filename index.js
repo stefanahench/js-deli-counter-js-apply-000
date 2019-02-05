@@ -2,9 +2,10 @@
 //   line.push(name)
 //   return `Welcome, ${name}. You are number ${line.length} in line.`
 // }
-
-function takeANumber (number) {
+var number = 0
+function takeANumber (line) {
   number++
+  line.push(number)
   return `Welcome. You are number ${number} in line.`
 }
 
